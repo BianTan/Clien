@@ -10,9 +10,7 @@
 					</div>
 					<div class="a-b" style="text-align: center;margin-bottom: 16px;">
 						<span><i class="fa fa-calendar-o" aria-hidden="true"></i><?php the_time('Y-m-d') ?></span>
-					<span><i class="fa fa-user-o" aria-hidden="true"></i><?php the_author_nickname(); ?></span>
-					<span><i class="fa fa-folder-o" aria-hidden="true"></i><?php the_category(', ') ?></span>
-					<span><i class="fa fa-comment-o" aria-hidden="true"></i><?php comments_number('评论：0', '评论：1', '评论：%' );?></span>
+						<span><i class="fa fa-comment-o" aria-hidden="true"></i><?php comments_number('评论：0', '评论：1', '评论：%' );?></span>
 					</div>
 					<div class="a-c">
 						<?php the_content("Read More..."); ?>
